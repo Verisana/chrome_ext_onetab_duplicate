@@ -1,0 +1,23 @@
+{
+  "name": "bookmark-manager",
+  "description": "AI powered easy bookmark manager for your needs",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "icons": {
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png"
+  },
+  "permissions": ["bookmarks", "tabs"],
+
+  "browser_action": {
+    "default_title": "bookmark-manager"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "options_ui": {
+    "page": "/app/index.html#/options",
+    "chrome_style": true,
+    "open_in_tab": true
+  }
+}

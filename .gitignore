@@ -1,0 +1,23 @@
+*.pyc
+*.zip
+*.py~
+*.html~
+*.db
+.venv
+*.tgz
+*.prof
+TODO.txt
+/bower_components
+/node_modules
+/dist
+/npm-debug.log
+/yarn-error.log
+/yarn.lock
+poetry.lock
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
